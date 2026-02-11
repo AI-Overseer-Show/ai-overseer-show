@@ -1,0 +1,136 @@
+---
+const title = "Support";
+const description =
+  "Free, gentle tools for grounding, reflection, and getting unstuck — without manipulation, guilt, or hype.";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | AI Overseer Show</title>
+    <meta name="description" content={description} />
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        background: #0b0f1a;
+        color: #e9eefc;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 3rem 1.25rem 5rem;
+      }
+      a { color: #8ab4ff; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 16px;
+        padding: 1.25rem 1.25rem;
+        margin: 1rem 0;
+      }
+      .kicker {
+        opacity: 0.85;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 0.78rem;
+      }
+      h1 { margin: 0.4rem 0 0.8rem; font-weight: 600; }
+      h2 { margin: 0 0 0.6rem; font-size: 1.15rem; }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+      }
+      @media (min-width: 760px) {
+        .grid { grid-template-columns: 1fr 1fr; }
+      }
+      .btnrow { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.8rem; }
+      .btn {
+        display: inline-block;
+        padding: 0.55rem 0.85rem;
+        border-radius: 12px;
+        background: rgba(138,180,255,0.12);
+        border: 1px solid rgba(138,180,255,0.22);
+      }
+      .fine {
+        opacity: 0.8;
+        font-size: 0.92rem;
+        margin-top: 1.2rem;
+      }
+      .hr {
+        height: 1px;
+        background: rgba(255,255,255,0.08);
+        margin: 1.6rem 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="wrap">
+      <div class="kicker">Free support</div>
+      <h1>Pause. Breathe. Regain agency.</h1>
+
+      <div class="card">
+        <p>
+          This section is intentionally quiet. No hype. No “life hacks.” No pressure.
+          Just a few practical tools for when your head is loud and your system needs a reset.
+        </p>
+        <p>
+          Nothing here is designed to manipulate you. If something feels pushy, ignore it.
+          You’re in charge.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn" href="/support/tools">Start with tools</a>
+          <a class="btn" href="/support/japanese">Learn Japanese through reflection</a>
+        </div>
+
+        <p class="fine">
+          If you feel in immediate danger or at risk of harm, contact your local emergency services.
+          This site is not medical care — it’s gentle structure.
+        </p>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="grid">
+        <div class="card">
+          <h2>1-minute reset</h2>
+          <p>Grounding you can do anywhere, even mid-doomscroll.</p>
+          <p><a href="/support/tools#one-minute">Open: One-minute reset →</a></p>
+        </div>
+
+        <div class="card">
+          <h2>Untangle the story</h2>
+          <p>Separate facts, interpretations, and predictions — calmly.</p>
+          <p><a href="/support/tools#untangle">Open: Untangle the story →</a></p>
+        </div>
+
+        <div class="card">
+          <h2>Solution steps</h2>
+          <p>Small actions that restore momentum without pretending life is simple.</p>
+          <p><a href="/support/tools#steps">Open: Next small step →</a></p>
+        </div>
+
+        <div class="card">
+          <h2>Language as a mirror</h2>
+          <p>Learn Japanese by reflecting on real feelings and real days.</p>
+          <p><a href="/support/japanese">Open: Japanese reflection →</a></p>
+        </div>
+      </div>
+
+      <p class="fine">
+        “Signal, not noise” applies here too: small honest reflection beats certainty shouted loudly.
+      </p>
+
+      <p class="fine">
+        <a href="/">← Back to home</a>
+      </p>
+    </main>
+  </body>
+</html>
